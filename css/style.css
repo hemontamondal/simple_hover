@@ -1,0 +1,70 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+.demo{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+/*	background-color: #929292;*/
+}
+.box{
+    position: relative;
+    margin: auto;
+    width: 40%;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #494341;
+    opacity: 0;
+    transition: .33s;
+}
+.overlay:hover{
+    opacity: .6;
+}
+.overlay h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 22px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.box2{
+    margin: auto;
+    width: 35%;
+    position:relative;
+
+}
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: gray;
+    opacity: 0;
+}
+.overlay2:hover{
+    opacity: .7;
+}
+.overlay2 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    color: white;
+    width: 250px;
+    text-align: center;
+}
